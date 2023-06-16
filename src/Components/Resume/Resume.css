@@ -1,0 +1,17 @@
+.skill{
+  display:flex;
+  flex-direction: column;
+}
+@media (max-width:976px) {
+  h3{
+    font-size: 20px;
+  }
+  .skill{
+    margin-top: 20px;
+  }
+  .skill .line p{
+    font-size: 18px;
+    margin: 0;
+  }
+
+}

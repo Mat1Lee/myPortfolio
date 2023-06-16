@@ -1,0 +1,124 @@
+
+.loader {
+  position: fixed;
+  width: 100%;
+  background:linear-gradient(250deg, #451234, #421787);
+  height: 100%;
+  z-index: 10000;
+
+}
+
+.outer,
+.middle,
+.inner {
+  border: 3px solid transparent;
+  border-top-color: #3cefff;
+  border-right-color: #3cefff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.outer {
+  width: 3.5em;
+  height: 3.5em;
+  margin-left: -1.75em;
+  margin-top: -1.75em;
+  animation: spin 2s linear infinite;
+}
+
+.middle {
+  width: 2.1em;
+  height: 2.1em;
+  margin-left: -1.05em;
+  margin-top: -1.05em;
+  animation: spin 1.75s linear reverse infinite;
+}
+
+.inner {
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: -0.4em;
+  margin-top: -0.4em;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.doneLoadingLeft {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  background:linear-gradient(250deg, #262453, #4f209b);
+
+  visibility: hidden;
+  animation: slideLeft 2s ease-out;
+}
+
+.doneLoadingRight {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 10000;
+  right: 0;
+  background: linear-gradient(250deg, #564290, #6944a4);
+
+  visibility: hidden;
+  animation: slideLeft 1.2s ease-in-out;
+}
+
+
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+    visibility: visible;
+  }
+  100% {
+    transform: translateX(-100vw);
+    visibility: hidden;
+  }
+}
+/* @keyframes slideRight {
+  0% {
+    bottom: 0;
+    visibility: visible;
+  }
+  100% {
+    bottom: -50vw;
+    visibility: hidden;
+  }
+} */
+/* @keyframes loadDown {
+  0% {
+    z-index: 8;
+  }
+  100% {
+    z-index: 8;
+    transform: translateY(calc(100% - 20px));
+  }
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 0.5;
+  }
+} */
