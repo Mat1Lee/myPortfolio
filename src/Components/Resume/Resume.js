@@ -5,7 +5,14 @@ import './Resume.css'
 import React from 'react';
 import Lineproces from '../templates/LineProces';
 const Resume = () => {
-  const frontendskills = [
+  const frontendskills = [    {
+      skill:'ReactJs',
+      rate:'85',
+    },
+    {
+      skill:'VueJs',
+      rate:'70',
+    },
     {
       skill:'HTML5',
       rate:'80',
@@ -18,16 +25,9 @@ const Resume = () => {
       skill:'JavaScript',
       rate:'75',
     },
-    {
-      skill:'ReactJs',
-      rate:'75',
-    },
-
-
   ]
   const softSkill =['TeamWork','Teachnical communication','Hight adaptable',' High self-study ability']
   
- 
   return (
     <motion.div 
       initial={{opacity:0, scale:0.5}}
@@ -41,7 +41,7 @@ const Resume = () => {
           <div className="col-md-7">
             <p>
               My expertise are in frontend technologies such as HTML5, CSS, BOOTSTRAP,
-              JAVASCRIPT, REACT,FIREBASE 
+              JAVASCRIPT, REACTJS,,REDUX,VUEJS,FIREBASE 
               <br/><br/>
               I am a solution-focused
               developer with the ability to develop interactive and responsive websites that

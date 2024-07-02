@@ -25,7 +25,7 @@
   bottom: 0;
 }
 .form-control{
-  background: #363232;
+  /* background: #363232; */
   color: black;
   outline: none!important;
 }

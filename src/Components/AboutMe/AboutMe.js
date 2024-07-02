@@ -6,6 +6,18 @@ import React from 'react';
 import './About.css'
 
 const AboutMe = () => {
+  const data= [{
+    id: 1,
+    icon: <FontAwesomeIcon icon={faDesktop} className="icon" />,
+    title: 'Frontend Web Developer',
+    desc: 'I am a Frontend Web Developer. I can create responsive websites. I can do front end work such as PSD to HTML, Sketch to html with proper responsiveness.',
+  },
+  {
+    id: 2,
+    icon: <FontAwesomeIcon icon={faMobile} className="icon" />,
+    title: 'Mobile App Developer',
+  }
+]
   return (
     <motion.div 
       initial={{opacity:0, scale:0.5}}
@@ -24,7 +36,8 @@ const AboutMe = () => {
           <p className="text-white">
             Hard working professional with proven critical thinking, good communication and
             multitasking skills. Aiming to leverage my abilities to successfully deliver your desired product. Developer with knowledge about backend technology that allows me to create dynamic and a fully functional website. <br/><br/>
-            I am able to do front end work such as PSD to HTML, Sketch to html with proper responsiveness. <br/><br/>
+            Experience working with ReactJs and VueJs. Good use of libraries such as Antd, Antdv, Bootstrap... <br/><br/>
+            Experience working with RESTful APIs and NoSQL databases. With little experience in backend programming, you can write simple CRUD APIs<br/>
             Able to absorb and always learn new related technologies and use them for their work.
           </p>
         </div>
@@ -55,27 +68,38 @@ const AboutMe = () => {
             <div className="timeline-item">
               <div className="cirle-dot"></div>
               <h3 className="timeline-date">
-              <FontAwesomeIcon className='myicon' icon={faBriefcase}/> Dec 2022 -  May 2023
+              <FontAwesomeIcon className='myicon' icon={faBriefcase}/> Dec 2022 -  Oct 2023
               </h3>
               <p className="timeline-title">CyberSoft Academy</p>
               <p className="timeline-text">Front-End Deverloper </p>
               
             </div>
-            <div className="timeline-item">
-              <div className="cirle-dot"></div>
-              <h3 className="timeline-date">
-              <FontAwesomeIcon className='myicon' icon={faBriefcase}/> 2018 - 2023
-              </h3>
-              <p className="timeline-title">Front-End Deverlop</p>
-              <p className="timeline-text">Make personal projects</p>
-              
-            </div>
            
           </div>
         </div>
-       
         <div className="col-md-6">
-          
+          <div className="service-box">
+          <div className="timeline-item">
+              <div className="cirle-dot"></div>
+              <h3 className="timeline-date">
+              <FontAwesomeIcon className='myicon' icon={faBriefcase}/>Oct 2023 - Mar 2024
+              </h3>
+              <p className="timeline-title">Front-End Deverlop</p>
+              <p className="timeline-text">Work at World Tech company</p>
+              
+            </div>
+            <div className="timeline-item">
+              <div className="cirle-dot"></div>
+              <h3 className="timeline-date">
+              <FontAwesomeIcon className='myicon' icon={faBriefcase}/> Apr 2024 - now
+              </h3>
+              <p className="timeline-title">Front-End Deverlop</p>
+              <p className="timeline-text">Work at Masscom group</p>
+              
+            </div>
+           
+           
+          </div>
         </div>
       </div>
       <h3 className="text-center mt-5">Services</h3>
