@@ -10,9 +10,7 @@ const SingleProject = ({project}) => {
               {
                 technology.map(tech => <span style={{fontSize:'10px'}} className="singleSkill">{tech}</span> )
               }
-              
                 <div className="h-100 d-flex justify-content-around align-items-center">
-               
                 <a href={livesite} target="_blank"><button style={{backgroundColor:'#8e2de2'}} className="btn brand-btn">Live Site</button></a>
                 <a target="_blank" href={github}><button className="btn brand-btn">Source Code</button></a>
               </div>
