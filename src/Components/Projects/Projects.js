@@ -11,8 +11,8 @@ import SingleProject from './SingleProject';
 
 const Projects = () => {
   const projects = [
-    {img: chat,livesite:'https://chat-react-69d2d.web.app/', title: 'Fun Chat', description:'Real time chat app', technology:['HTML', 'SCSS','REACT','FIREBASE' ],github:'https://github.com/Mat1Lee/chatApp' },
-    {img: phimchill,livesite:'https://react1-bdb08.web.app/', title: 'Weather App', description:'Movie website that recommends trending and top-rated movies and TV series', technology:['REACT','TYPESCRIPT','SCSS', 'REACTBOOTSTRAP', ],github:'https://github.com/Mat1Lee/Weather' },
+    {img: chat,livesite:'https://main--funchat1.netlify.app/', title: 'Fun Chat', description:'Real time chat app', technology:['HTML', 'SCSS','REACT','FIREBASE' ],github:'https://github.com/Mat1Lee/chatApp' },
+    {img: phimchill,livesite:'https://master--phimchilll.netlify.app/', title: 'Weather App', description:'Movie website that recommends trending and top-rated movies and TV series', technology:['REACT','TYPESCRIPT','SCSS', 'REACTBOOTSTRAP', ],github:'https://github.com/Mat1Lee/Weather' },
     {img: diennuoc,livesite:'https://diennuoc-9bba6.web.app/', title: 'Website displaying and monitoring data', description:'Website display and functions for users', technology:['HTML', 'SCSS', 'REACTBOOTSTRAP', 'REACT','REACT-REDUX', 'FIREBASE'],github:'https://github.com/Mat1Lee/dienNuocAdmin'},
     {img: phone,livesite:'https://phone-seller-219d4.web.app/', title: 'Phone Seller', description:'Website with  user  operations', technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT'],github:'https://github.com/Mat1Lee/Phone' },
     {img: music,livesite:'https://music-e47bb.web.app/', title: 'Music player', description:'', technology:['HTML','SCSS', 'REACTBOOTSTRAP', 'REACT','REACT-REDUX' ],github:'https://github.com/Mat1Lee/music' },
