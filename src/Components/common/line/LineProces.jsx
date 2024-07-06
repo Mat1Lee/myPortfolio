@@ -3,7 +3,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 
 import './Line.css'
 const Lineproces = (props)=> {
-  console.log(props.props.rate);
+  // console.log(props.props.rate);
   return (
   <>
     <div className="line">

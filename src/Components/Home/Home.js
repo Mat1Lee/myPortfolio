@@ -17,7 +17,7 @@ import { motion } from "framer-motion";
 
 import "./Home.css";
 import React from "react";
-import { Typed } from "react-typed";
+import { ReactTyped } from "react-typed";
 import me from "../images/mLe.png";
 
 const Home = () => {
@@ -28,8 +28,8 @@ const Home = () => {
   const aa = arr.filter((item) => {
     bb = [...bb, `${item}`];
   });
-  console.log(bb);
-  console.log(aa);
+  // console.log(bb);
+  // console.log(aa);
   const arr3 = [];
   obj1.map((item) => {
     for (let i = 0; i < item.length; i++) {
@@ -39,7 +39,7 @@ const Home = () => {
   const arr4 = arr3.filter((item) => item % 2 == 0);
 
   const nums = [];
-  console.log("ar3", arr4);
+  // console.log("ar3", arr4);
 
   const searchRange = (target) => {
     let arr7 = [];
@@ -49,7 +49,7 @@ const Home = () => {
         arr7 = [...arr7, index];
       } else arr7 = [-1, -1];
     });
-    console.log(arr7);
+    // console.log(arr7);
   };
   searchRange(8);
 
@@ -59,7 +59,7 @@ const Home = () => {
     if (item != null) arr1 = [...arr1, index];
     else arr1 = [-1, -1];
   });
-  console.log(arr1);
+  // console.log(arr1);
   // const arr1=arr.map((item,index)=>{
   //   // arr=[...${`item`}]
   //   console.log(item);
@@ -80,24 +80,24 @@ const Home = () => {
                 <h2>Welcome!</h2>
                 <h1 className="name-title">I am Manh Le, a</h1>
                 <h1>
-                  <span className="art-code">
-                    &lt;<i>code</i>&gt;{" "}
-                    <Typed
-                      strings={["Front-End Developer", "React Developer"]}
-                      loop
-                      typeSpeed={100}
-                      backSpeed={25}
-                      smartBackspace
-                      shuffle={false}
-                      backDelay={1}
-                      fadeOut={false}
-                      fadeOutDelay={100}
-                      loopCount={0}
-                      showCursor
-                      cursorChar="|"
-                    />{" "}
-                    &lt;/<i>code</i>&gt;
-                  </span>
+                      <span className="art-code">
+            &lt;<i>code</i>&gt;{" "}
+            <ReactTyped
+              strings={["Front-End Developer", "React Developer"]}
+              loop
+              typeSpeed={100}
+              backSpeed={25}
+              smartBackspace
+              shuffle={false}
+              backDelay={1}
+              fadeOut={false}
+              fadeOutDelay={100}
+              loopCount={0}
+              showCursor
+              cursorChar="|"
+            />{" "}
+            &lt;/<i>code</i>&gt;
+             </span>
                 </h1>
 
                 <a
@@ -116,9 +116,9 @@ const Home = () => {
                   <div className="button">
                     <div className="icon">
                       <a href="https://www.facebook.com/lee.michael.50702">
-                        <fontawesomeicon
+                        <FontAwesomeIcon
                           classname="myicon"
-                          icon="{faFacebook}"
+                          icon={faFacebook}
                         />
                       </a>
                     </div>
@@ -127,9 +127,9 @@ const Home = () => {
                   <div className="button">
                     <div className="icon">
                       <a href="https://www.linkedin.com/in/m%E1%BA%A1nh-l%C3%AA-bb2586258/">
-                        <fontawesomeicon
+                        <FontAwesomeIcon
                           classname="myicon"
-                          icon="{faLinkedinIn}"
+                          icon={faLinkedinIn}
                         />
                       </a>
                     </div>
@@ -138,9 +138,9 @@ const Home = () => {
                   <div className="button">
                     <div className="icon">
                       <a href="https://www.instagram.com/manh_mad/">
-                        <fontawesomeicon
+                        <FontAwesomeIcon
                           classname="myicon"
-                          icon="{faInstagram}"
+                          icon={faInstagram}
                         />
                       </a>
                     </div>
@@ -149,7 +149,7 @@ const Home = () => {
                   <div className="button">
                     <div className="icon">
                       <a href="https://github.com/Mat1Lee">
-                        <fontawesomeicon classname="myicon" icon="{faGithub}" />
+                        <FontAwesomeIcon classname="myicon" icon={faGithub} />
                       </a>
                     </div>
                     <span>GitHub</span>
