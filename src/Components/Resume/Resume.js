@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { motion } from 'framer-motion';
 import './Resume.css'
 import React from 'react';
-import Lineproces from '../templates/LineProces';
+import Lineproces from '../common/line/LineProces';
 const Resume = () => {
   const frontendskills = [    {
       skill:'ReactJs',
