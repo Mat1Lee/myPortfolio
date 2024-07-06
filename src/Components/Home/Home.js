@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 import './Home.css'
 import React from 'react';
-import Typed from 'react-typed'
+import {Typed} from 'react-typed'
 import me from '../images/mLe.png'
 
 
