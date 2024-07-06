@@ -1,6 +1,16 @@
+
 {
-  "extends": "react-app",
-  "rules": {
-    "no-unused-vars": "warn"
+  "extends": [
+    "react-app",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "rules": { 
+    "no-unused-vars": "warn",
+    "react/jsx-no-target-blank": ["error", { "allowReferrer": false }],
+    // Other rules...
   }
 }
