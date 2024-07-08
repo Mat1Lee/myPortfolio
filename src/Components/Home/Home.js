@@ -102,7 +102,7 @@ const Home = () => {
 
                 <a
                   target="_blank"
-                  href="https://drive.google.com/file/d/1rVotItzMN9VZzeRVWQ0I3jwETY5Tvpve/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1biUI1QCBhtwH_JyUgsIOqF4QEA6mX0eB/view?usp=sharing"
                 >
                   <button className="btn brand-btn">
                     Download Resume{" "}

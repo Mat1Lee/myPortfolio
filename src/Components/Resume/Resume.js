@@ -72,7 +72,7 @@ const Resume = () => {
               softSkill.map(item=><li>{item}</li>)
             }
             
-            <a target="_blank" href="https://drive.google.com/file/d/1rVotItzMN9VZzeRVWQ0I3jwETY5Tvpve/view?usp=sharing">
+            <a target="_blank" href="https://drive.google.com/file/d/1biUI1QCBhtwH_JyUgsIOqF4QEA6mX0eB/view?usp=sharing">
           <button className="btn brand-btn mt-5">Download Resume <span><FontAwesomeIcon icon={faFileDownload}></FontAwesomeIcon></span></button>
           </a>
           
