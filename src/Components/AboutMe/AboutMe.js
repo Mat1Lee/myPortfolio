@@ -52,9 +52,11 @@ const AboutMe = () => {
           </a>
         </div>
       </div>
-        <h3 className="text-center mt-5">Education</h3>
+       
       <div className="row mt-5 text-center mb-5">
+     
         <div className="col-md-6">
+        <h3 className="text-center mt-5">Education</h3>
           <div className="service-box">
             <div className="timeline-item">
               <div className="cirle-dot"></div>
@@ -78,6 +80,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="col-md-6">
+        <h3 className="text-center mt-5">Experience</h3>
           <div className="service-box">
           <div className="timeline-item">
               <div className="cirle-dot"></div>
