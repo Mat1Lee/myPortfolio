@@ -7,23 +7,23 @@ import Lineproces from '../common/line/LineProces';
 const Resume = () => {
   const frontendskills = [    {
       skill:'ReactJs',
-      rate:'85',
+      rate:'95',
     },
     {
       skill:'VueJs',
-      rate:'70',
+      rate:'80',
     },
     {
       skill:'HTML5',
-      rate:'80',
+      rate:'95',
     },
     {
       skill:'CSS',
-      rate:'80',
+      rate:'95',
     },
     {
       skill:'JavaScript',
-      rate:'75',
+      rate:'95',
     },
   ]
   const softSkill =['TeamWork','Teachnical communication','Hight adaptable',' High self-study ability']
@@ -41,8 +41,12 @@ const Resume = () => {
           <div className="col-md-7">
             <p>
               My expertise are in frontend technologies such as HTML5, CSS, BOOTSTRAP,
-              JAVASCRIPT, REACTJS,,REDUX,VUEJS,FIREBASE 
+              JAVASCRIPT, REACTJS,REDUX,VUEJS,FIREBASE 
               <br/><br/>
+              Experience working with ReactJs and VueJs. Good use of libraries such as Antd, Antdv, Bootstrap... <br/><br/>
+            Experience working with RESTful APIs and NoSQL databases. With little experience in backend programming, you can write simple CRUD APIs<br/>
+            Able to absorb and always learn new related technologies and use them for their work. <br></br>
+            Have experience developing projects according to the AGILE SCRUM model.
               I am a solution-focused
               developer with the ability to develop interactive and responsive websites that
               satisfies a user’s experience.
