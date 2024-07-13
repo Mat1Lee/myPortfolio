@@ -45,7 +45,7 @@ const AboutMe = () => {
           <h4 className=" mb-4">Personal Information</h4>
           <p><span className="info-text">Name: </span>Le Van Manh</p>
           <p><span className="info-text">Age: </span>23</p>
-          <p><span className="info-text">Address: </span>Da Nang, Viet nam</p>
+          <p><span className="info-text">Address: </span>Ha Noi, Viet nam</p>
           <p><span className="info-text">Email: </span>manhnghean183286@gmail.com</p>
           <a target="_blank" href="https://drive.google.com/file/d/1biUI1QCBhtwH_JyUgsIOqF4QEA6mX0eB/view?usp=sharing">
           <button className="btn brand-btn mt-5">Download Resume <span><FontAwesomeIcon icon={faFileDownload}></FontAwesomeIcon></span></button>

@@ -64,6 +64,27 @@ const Home = () => {
   //   // arr=[...${`item`}]
   //   console.log(item);
   // })
+const arr7 = [
+    {"id": 1, "x": 2, "y": 3},
+    {"id": 2, "x": 3, "y": 6}
+]; 
+const arr2 = [
+    {"id": 2, "x": 10, "y": 20},
+    {"id": 3, "x": 0, "y": 0}
+];
+  var join = function(a, b) {
+    const arr =[]
+    for(let i = 0;i++;i<=a.length){
+        for(let j = 0;j++;j<=b.length){
+           if(a[i].id===b[j].id){
+               arr.push({"id":a[i].id,"x":a[i].x+b[j].x,"y":a[i].y+b[j].y});
+
+           
+           }
+    }
+  }
+    
+};
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
